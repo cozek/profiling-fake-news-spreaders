@@ -1,6 +1,6 @@
 # profiling-fake-news-spreaders
 This repo contains code related to our submission for the task of Profiling Fake News Spreaders in PAN at CLEF 2020. 
-The `software` directory include the scripts used in TIRA, verbatim. PyTorch model weights are required to run the scripts. Run these scripts the same as they would run in TIRA as:
+The [software](https://github.com/cozek/profiling-fake-news-spreaders/tree/master/software) directory include the scripts used in TIRA, verbatim. PyTorch model weights are required to run the scripts. Run these scripts the same as they would run in TIRA as:
 ```
 ./electra_{en/es}_{type}.py -i $inputDataset -o $outputDir
 ```
@@ -12,7 +12,7 @@ The model weights and Ensemble Training Notebooks can be viewed/downloaded from 
 - [Notebook/Weights for Spanish Dataset](https://www.kaggle.com/coseck/spanish-electra-on-pan-fake-news)
 
 EDA of the Dataset: [EDA Notebook](https://www.kaggle.com/coseck/pan2020-profiling-fake-news-spreaders-eda)
-
+Analysis of Ensemble: [Notebook](https://github.com/cozek/profiling-fake-news-spreaders/blob/master/notebooks/Analysis%20of%20Ensemble.ipynb)
 
 Training data can be requested from [Zenodo](https://zenodo.org/record/3692319#.XxG-gi0w1QI).
 
