@@ -23,12 +23,12 @@ The desciption of the scripts are as follows:
 - `electra_{en/es}_oneshot.py` : Runs the best model  found during once on the given inputDataset only once. 
 
 ```
-./electra_{en/es}__ensemble.py -i inputDatasetDir -o outputDir  -m bestmodel.pt
+./electra_{en/es}__oneshot.py -i inputDatasetDir -o outputDir  -m bestmodel.pt
 ```
 
 - `electra_{en/es}_solo.py` : Creates the ensemble using 15 copies of the best model and runs it on the given inputDataset.
 ```
-./electra_{en/es}__ensemble.py -i inputDatasetDir -o outputDir  -m bestmodel.pt
+./electra_{en/es}__solo.py -i inputDatasetDir -o outputDir  -m bestmodel.pt
 ```
 
 Requirements:
