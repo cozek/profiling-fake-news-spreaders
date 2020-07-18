@@ -7,9 +7,12 @@ The `software` directory include the scripts used in TIRA, verbatim. PyTorch mod
 It expects data to be in XML format as specified by the organizers in the [task homepage](https://pan.webis.de/clef20/pan20-web/author-profiling.html). You will need to edit the shebang to match your environment.
 
 
- The model weights and Ensemble Training Notebooks can be viewed/downloaded from Kaggle:
+The model weights and Ensemble Training Notebooks can be viewed/downloaded from Kaggle:
 - [Notebook/Weights for English Dataset](https://www.kaggle.com/coseck/fork-of-electra-on-pan-fake-news-2b295d)
 - [Notebook/Weights for Spanish Dataset](https://www.kaggle.com/coseck/spanish-electra-on-pan-fake-news)
+
+EDA of the Dataset: [EDA Notebook](https://www.kaggle.com/coseck/pan2020-profiling-fake-news-spreaders-eda)
+
 
 Training data can be requested from [Zenodo](https://zenodo.org/record/3692319#.XxG-gi0w1QI).
 
