@@ -1,5 +1,5 @@
 # profiling-fake-news-spreaders
-This repo contains code related to our submission for the task of Profiling Fake News Spreaders in PAN at CLEF 2020. 
+This repo contains code related to our submission for the task of [Profiling Fake News Spreaders](https://pan.webis.de/clef20/pan20-web/author-profiling.html) in PAN at CLEF 2020. 
 The [software](https://github.com/cozek/profiling-fake-news-spreaders/tree/master/software) directory include the scripts used in TIRA, verbatim. PyTorch model weights are required to run the scripts. Run these scripts the same as they would run in TIRA as:
 ```
 ./electra_{en/es}_{type}.py -i $inputDataset -o $outputDir
