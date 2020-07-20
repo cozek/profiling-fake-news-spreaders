@@ -36,9 +36,9 @@ The desciption of the scripts are as follows:
 ```
 
 Requirements:
-- This work reuses code written for another project which you can pull using the following command
+- This work reuses code written for another project which must be pulled as well
     ```
-    git clone https://github.com/cozek/trac2020_submission.git
+    git clone --recurse-submodules https://github.com/cozek/trac2020_submission.git
     ```
 - Other libraries:
     - PyTorch
