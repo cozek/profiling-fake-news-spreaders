@@ -50,5 +50,15 @@ Requirements:
 
 If code/paper was helpful, please cite:
 ```
-TBD
+@InProceedings{das:2020,
+  author =              {{Kaushik Amar} Das and Arup Baruah and {Ferdous Ahmed} Barbhuiya and Kuntal Dey},
+  booktitle =           {{CLEF 2020 Labs and Workshops, Notebook Papers}},
+  crossref =            {pan:2020},
+  editor =              {Linda Cappellato and Carsten Eickhoff and Nicola Ferro and Aur{\'e}lie N{\'e}v{\'e}ol},
+  month =               sep,
+  publisher =           {CEUR-WS.org},
+  title =               {{Ensemble of ELECTRA for Profiling Fake News Spreaders---Notebook for PAN at CLEF 2020}},
+  url =                 {},
+  year =                2020
+}
 ```
